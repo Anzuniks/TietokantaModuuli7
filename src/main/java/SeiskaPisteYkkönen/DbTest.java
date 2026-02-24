@@ -1,3 +1,5 @@
+package SeiskaPisteYkkönen;
+
 import java.sql.*;
 
 public class DbTest {
