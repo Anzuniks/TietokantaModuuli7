@@ -6,7 +6,7 @@
 
 <VBox alignment="CENTER" spacing="15.0" xmlns="http://javafx.com/javafx/17"
       xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="ModuuliSeiskapisteKakkonen.application.CurrencyController">
+      fx:controller="SeiskaPisteKolme.ModuuliSeiskapisteKakkonenKopio.application.CurrencyController">
 
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
@@ -20,6 +20,7 @@
     </HBox>
 
     <Button text="Muunna" onAction="#handleConvert" />
+    <Button text="Lisää valuutta" onAction="#handleAddCurrency" />
 
     <HBox spacing="10.0" alignment="CENTER">
         <Label text="Tulos:" />
